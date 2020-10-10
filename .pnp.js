@@ -61,6 +61,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:16.13.1"],
             ["react-dom", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:16.13.1"],
             ["react-three-fiber", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:5.0.3"],
+            ["rollup-plugin-pnp-resolve", "npm:2.0.0"],
             ["snowpack", "npm:2.13.3"],
             ["three", "npm:0.121.1"],
             ["typescript", "patch:typescript@npm%3A4.0.3#builtin<compat/typescript>::version=4.0.3&hash=5bf698"]
@@ -2333,6 +2334,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@chakra-ui-core-virtual-88edd7654b/0/cache/@chakra-ui-core-npm-0.8.0-d1151a31c5-370fa7d0b4.zip/node_modules/@chakra-ui/core/",
           "packageDependencies": [
             ["@chakra-ui/core", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:0.8.0"],
+            ["@babel/runtime", "npm:7.11.2"],
             ["@emotion/core", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:10.0.35"],
             ["@emotion/styled", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:10.0.27"],
             ["@reach/auto-id", "virtual:88edd7654bc4d9a01957c228dbc98bf543a3deb3a97e13e84c8c73280845649cca8887f9780e179749e8b23b968af374c9aeab3691a3039f916fff4d3f13138c#npm:0.10.2"],
@@ -2859,6 +2861,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@reach/visually-hidden", "virtual:6b58124d83c05590f52e0dd9e73bd4cdeb10b88da2a491b5e3dea4ab465392926b22f84afcc7daa5045ff070f79ff3e113bc16cb78860a061f8b49e6fe0c524d#npm:0.1.4"],
             ["@types/react", "npm:16.9.51"],
             ["@types/react-dom", "npm:16.9.8"],
+            ["prop-types", "npm:15.7.2"],
             ["react", "npm:16.13.1"],
             ["react-dom", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:16.13.1"]
           ],
@@ -2900,7 +2903,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/prop-types", null],
             ["@types/react", "npm:16.9.51"],
             ["@types/react-dom", "npm:16.9.8"],
-            ["prop-types", null],
+            ["prop-types", "npm:15.7.2"],
             ["react", "npm:16.13.1"],
             ["react-dom", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:16.13.1"]
           ],
@@ -9394,6 +9397,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:16.9.51"],
             ["@types/react-dom", "npm:16.9.8"],
             ["@types/three", null],
+            ["object-assign", "npm:4.1.1"],
             ["react", "npm:16.13.1"],
             ["react-dom", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:16.13.1"],
             ["react-merge-refs", "npm:1.1.0"],
@@ -9850,6 +9854,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["rollup-plugin-pnp-resolve", [
+        ["npm:2.0.0", {
+          "packageLocation": "./.yarn/cache/rollup-plugin-pnp-resolve-npm-2.0.0-948ce4faec-6fd37cfa9f.zip/node_modules/rollup-plugin-pnp-resolve/",
+          "packageDependencies": [
+            ["rollup-plugin-pnp-resolve", "npm:2.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["rollup-pluginutils", [
         ["npm:2.8.2", {
           "packageLocation": "./.yarn/cache/rollup-pluginutils-npm-2.8.2-f554dd6ac5-6922c1a26d.zip/node_modules/rollup-pluginutils/",
@@ -9889,6 +9902,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:16.13.1"],
             ["react-dom", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:16.13.1"],
             ["react-three-fiber", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:5.0.3"],
+            ["rollup-plugin-pnp-resolve", "npm:2.0.0"],
             ["snowpack", "npm:2.13.3"],
             ["three", "npm:0.121.1"],
             ["typescript", "patch:typescript@npm%3A4.0.3#builtin<compat/typescript>::version=4.0.3&hash=5bf698"]
@@ -10788,7 +10802,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:16.9.51"],
             ["@types/react-dom", "npm:16.9.8"],
             ["react", "npm:16.13.1"],
-            ["react-dom", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:16.13.1"]
+            ["react-dom", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:16.13.1"],
+            ["react-spring", "virtual:88edd7654bc4d9a01957c228dbc98bf543a3deb3a97e13e84c8c73280845649cca8887f9780e179749e8b23b968af374c9aeab3691a3039f916fff4d3f13138c#npm:8.0.27"]
           ],
           "packagePeers": [
             "@types/react-dom",

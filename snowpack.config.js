@@ -8,4 +8,9 @@ module.exports = {
     '@snowpack/plugin-dotenv',
     "@snowpack/plugin-typescript"
   ],
+  installOptions: {
+    rollup: {
+      plugins: [require('rollup-plugin-pnp-resolve')()],
+    },
+  },
 };
