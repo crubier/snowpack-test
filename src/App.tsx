@@ -8,7 +8,7 @@ import './App.css';
 import { Canvas, useFrame } from 'react-three-fiber';
 import type { Mesh } from 'three';
 
-import { ThemeProvider, theme, CSSReset,Button } from '@chakra-ui/core';
+import { ThemeProvider, theme, CSSReset, Button } from '@chakra-ui/core';
 
 function Box(props: { position: [number, number, number] }) {
   // This reference will give us direct access to the mesh
@@ -40,7 +40,6 @@ function Box(props: { position: [number, number, number] }) {
 }
 
 interface AppProps {}
-
 
 function App({}: AppProps) {
   const [count, setCount] = useState(0);

@@ -1,6 +1,6 @@
-(window as unknown as (Window & {
+((window as unknown) as Window & {
   CESIUM_BASE_URL: string;
-})).CESIUM_BASE_URL = import.meta.env.SNOWPACK_PUBLIC_CESIUM_BASE_URL;
+}).CESIUM_BASE_URL = import.meta.env.SNOWPACK_PUBLIC_CESIUM_BASE_URL;
 
 import React from 'react';
 import ReactDOM from 'react-dom';
