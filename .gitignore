@@ -2,7 +2,7 @@
 build
 web_modules
 node_modules
-.yarn
+.yarn/*
 !.yarn/releases
 !.yarn/versions
 !.yarn/plugins
